@@ -24,7 +24,7 @@ const HeroSection = () => {
       variants={containerVariants}
       initial="hidden"
       animate="visible"
-      className="relative pt-28 lg:pt-36 bg-gradient-to-b from-black via-gray-900 to-gray-800 text-white"
+      className="relative pt-28 lg:pt-36 text-white"
     >
       <div className="max-w-7xl mx-auto px-4 flex flex-col items-center text-center">
         {/* Badge */}
