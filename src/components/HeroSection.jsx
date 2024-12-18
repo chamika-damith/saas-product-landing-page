@@ -17,18 +17,6 @@ const fadeIn = {
   visible: { opacity: 1, transition: { duration: 0.6 } },
 };
 
-const scrollVariants = {
-  hidden: { opacity: 0, y: -10 },
-  visible: {
-    opacity: 1,
-    y: 0,
-    transition: {
-      repeat: Infinity,
-      repeatType: "reverse",
-      duration: 1.2,
-    },
-  },
-};
 
 const HeroSection = () => {
   return (
