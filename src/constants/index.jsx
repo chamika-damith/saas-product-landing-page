@@ -102,42 +102,42 @@ export const KEY_FEATURES_CONTENT = {
   features: [
     {
       id: 1,
-      icon: <RiBarChart2Line className="w-8 h-8" />,
+      icon: <RiBarChart2Line className="w-8 h-8 text-white" />,
       title: "Real-Time Stream Analytics",
       description:
         "Track your audience engagement, viewer count, and performance in real-time.",
     },
     {
       id: 2,
-      icon: <RiSettings2Line className="w-8 h-8" />,
+      icon: <RiSettings2Line className="w-8 h-8 text-white" />,
       title: "Automated Stream Management",
       description:
         "Set up automated alerts, stream schedules, and more with ease.",
     },
     {
       id: 3,
-      icon: <RiTeamLine className="w-8 h-8" />,
+      icon: <RiTeamLine className="w-8 h-8 text-white" />,
       title: "Audience Engagement Tools",
       description:
         "Interact with your audience through custom alerts, chat integrations, and giveaways.",
     },
     {
       id: 4,
-      icon: <RiTwitchLine className="w-8 h-8" />,
+      icon: <RiTwitchLine className="w-8 h-8 text-white" />,
       title: "Twitch Integration",
       description:
         "Seamlessly connect with Twitch to automate alerts, manage subscribers, and track donations.",
     },
     {
       id: 5,
-      icon: <RiYoutubeLine className="w-8 h-8" />,
+      icon: <RiYoutubeLine className="w-8 h-8 text-white" />,
       title: "YouTube Streaming Support",
       description:
         "Go live on YouTube with built-in tools for managing chats, subscribers, and more.",
     },
     {
       id: 6,
-      icon: <RiCalendarLine className="w-8 h-8" />,
+      icon: <RiCalendarLine className="w-8 h-8 text-white" />,
       title: "Schedule Streams",
       description:
         "Plan and schedule your streams ahead of time, with reminders sent to your audience.",
