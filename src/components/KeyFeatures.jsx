@@ -7,15 +7,19 @@ const KeyFeatures = () => {
         visible: {
             opacity: 1,
             transition: {
-                straggerChildren: 0.2,
-                when: "beforeChildren"
-            }
-        }
+                staggerChildren: 0.2,
+                when: "beforeChildren",
+            },
+        },
     }
 
     const featureVariants = {
         hidden: { opacity: 0, y: 50 },
-        visible: { opacity: 1, y: 0, transition: { duration: 0.5, } }
+        visible: {
+            opacity: 1,
+            y: 0,
+            transition: { duration: 0.5 },
+        },
     }
     return (
         <section>
@@ -39,13 +43,16 @@ const KeyFeatures = () => {
                     {KEY_FEATURES_CONTENT.features.map((feature) => (
                         <motion.div
                             key={feature.id}
-                            className="flex flex-col items-center text-center w-full md:w-1/2 lg:w-1/3 p-6"
+                            className="flex flex-col mb-10 items-center text-center w-full md:w-1/2 lg:w-1/3 p-6"
                             variants={featureVariants}
                         >
                             <div className="flex justify-center items-center mb-4 ">
                                 {feature.icon}
                             </div>
                             <h3 className="text-xl text-white">{feature.title}</h3>
+                            <p className="mt-2 text-neutral-400">
+                                {feature.description}
+                            </p>
                         </motion.div>
                     ))}
                 </motion.div>
